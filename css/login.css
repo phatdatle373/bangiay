@@ -1,0 +1,86 @@
+body{
+    font-size: 14px;
+}
+.box_header{
+    border-bottom: 0.1em solid #ececec;
+}
+.box_header, .logo{
+    justify-content: center;
+}
+.logo img{
+    width: 60%;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+form{
+    position: relative;
+    width: 343px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+form h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 22px;
+}
+.form-group input{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 0px;
+    border: 1px solid;
+    outline: none;
+}
+form p, form p a{
+    font-size: 13px;
+    color: #575757;
+}
+form p a{
+    text-decoration: underline;
+}
+form > a{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #1e1e1e;
+    text-decoration: underline;
+}
+form button{
+    background: #73FBF4;
+    padding: 8px 0px;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.box_footer{
+    border-top: 0.1em solid #ececec;
+    background: #FAFAFA;
+}
+.form_footer> span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.form_footer a{
+    color: #1e1e1e;
+    text-decoration: underline;
+}
+.form_footer button{
+    padding: 7px 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+    color: #1e1e1e;
+    transition: all 0.4s;
+}
+.form_footer button:hover{
+    background: #1e1e1e;
+    color: #fff;
+}
